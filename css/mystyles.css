@@ -96,3 +96,8 @@ height:50px!important;
 glyphicon.glyphicon-calendra {
     font-size: 40px;
 }
+
+
+#clock_icon {
+    padding-top: 10px;
+}
