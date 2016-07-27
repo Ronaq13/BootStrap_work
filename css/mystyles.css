@@ -63,10 +63,6 @@ body{
     color:#000000;
 }
 
-#reserve_button {
-    position: absolute;
-    top: 100px;
-}
 
 .form-radio{
 
@@ -76,28 +72,7 @@ height:50px!important;
 
 }
 
-#number_of_guest_radio {
-    position: absolute;
-    top:10px;
-    left:300px;
+#navbar_form_div {
+    padding-left: 65px;
 }
 
-#date_time_inForm {
-    position: absolute;
-    top:65px;
-    left:300px
-}
-
-#column_fixed {
-    position: fixed;
-    width: 69px;
-}
-
-glyphicon.glyphicon-calendra {
-    font-size: 40px;
-}
-
-
-#clock_icon {
-    padding-top: 10px;
-}
