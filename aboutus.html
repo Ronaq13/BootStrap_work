@@ -23,7 +23,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="200">        <!-- this modification is for "scrollspy", and i dont know how they know that they should give a offset of 200 and i even dont know it unit, but most probably it is "px"  -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -78,15 +78,17 @@
     </header>
 
     <div class="container">
-        <div class="row">         <!-- row 1 -->
-            <div class="col-xs-12 col-sm-12">
+    <div class="row">    
+    <div class="col-xs-12 col-sm-10">           <!-- this and above line catches the entire code below them in a row occupying 10 coloumn -->
+            <div class="row">         
+            <div class="col-xs-12">
              <!--   Breadcrumbs go here       -->
                     <ol class="breadcrumb">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
                     </ol>
             </div>
-            <div class="col-xs-12 col-sm-12">
+            <div class="col-xs-12">
                <h3>About Us</h3>
                <hr>
             </div>
@@ -258,8 +260,8 @@
                  </div>                                          //asked to delete -->
        </div> 
 
-
-
+    </div>
+    </div>
     </div>
 
     <footer class="row-footer">
