@@ -99,3 +99,9 @@ height:50px!important;
     left: 0;
     min-height: 300px;
 }
+
+#carouselButtons {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
