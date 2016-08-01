@@ -75,7 +75,8 @@
                                            
                                         </ul>
                                         <ul class="nav navbar-nav navbar-right">  <!-- trigger button for modal -->
-                                            <li><a data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                                           <!-- <li><a data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>   -->
+                                             <li><a id="loginButton"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                                         </ul>
                                </div>
                 
@@ -239,7 +240,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-2">
                         <p style="padding:40px;"></p>
-                       <a type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#reserve_table_modal">Reserve Table</a>                      
+                         <!-- <a type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#reserve_table_modal">Reserve Table</a> -->  
+                        <a id="reserve-table" type="button" class="btn btn-warning btn-block">Reserve Table</a>                 <!-- the id is used in script -->   
                     </div>
                 </div>
         </div>
@@ -487,7 +489,20 @@
                         $("#carousel-play").click(function(){
                 $("#mycarousel").carousel('cycle');
             });
+
+                // Code for activating the Login-modal
+            $("#loginButton").click(function(){                     // id is of button
+                $("#loginModal").modal();
+            });
+
+            //Code for activating the Reserve-table-modal
+            $("#reserve-table").click(function() {                       // id is of button
+                $("#reserve_table_modal").modal();
+            });
         });
+
+        
+                
     </script>
 
 </body>
