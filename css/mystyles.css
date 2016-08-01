@@ -89,8 +89,14 @@ body {
 .affix {
   top: 100px;
 }
+
+.carousel {
+    background: #1A237E;
+}
+
 #carouselButtons {
   bottom: 0px;
   position: absolute;
   right: 0px;
 }
+
